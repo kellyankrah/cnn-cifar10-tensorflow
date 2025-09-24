@@ -1,3 +1,6 @@
+[![smoke](https://github.com/kellyankrah/cnn-cifar10-tensorflow/actions/workflows/smoke.yml/badge.svg)](https://github.com/kellyankrah/cnn-cifar10-tensorflow/actions/workflows/smoke.yml)
+
+
 # CIFAR-10 Image Classification (TensorFlow/Keras)
 
 Keras/TensorFlow CNN trained on CIFAR-10 with BatchNorm + Dropout. Saves model and plots to `artifacts/`.
