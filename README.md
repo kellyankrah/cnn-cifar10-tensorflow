@@ -1,5 +1,10 @@
 # CIFAR-10 Image Classification (TensorFlow/Keras)
 
-![smoke](https://github.com/kellyankrah/cnn-cifar10-tensorflow/actions/workflows/smoke.yml/badge.svg)
+Keras/TensorFlow CNN trained on CIFAR-10 with BatchNorm + Dropout. Saves model and plots to `artifacts/`.
 
-(Upgraded README with badge + results table)
+## Quickstart
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+python train.py --epochs 15 --batch-size 128
+```
